@@ -1,0 +1,161 @@
+.header{
+    font-size: 25px;
+    font-weight: 700;
+    color: white;
+    background-color: rgb(0, 0, 0);
+    background-image: linear-gradient(90deg, black, black, gray, black, black, gray, black, black);
+    height: 55px;
+    text-align: center;
+    padding-top: 5px;
+    text-shadow: 3px 3px 6px gray;
+}
+
+.main {
+    padding: 15px;
+    align-items: center;
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.item {
+    background-image: linear-gradient(90deg, black, gray);
+    padding: 0 20px;
+    box-shadow: 0px 0px 5px 3px black;
+    height: 550px;
+    border-radius: 15px;
+}
+
+h2 {
+    margin-top: 0;
+}
+
+.modalAlertSuccess {
+    display: none;
+    border: 2px solid white;
+    border-radius: 10px;
+    position: absolute;
+    top: 1%;
+    right: 1%;
+    background-image: linear-gradient(180deg, rgb(29, 232, 29), gold);
+    text-align: center;
+    width: 220px;
+    height: 37px;
+    font-size: 12px;
+    color: white;
+    padding-bottom: 10px;
+}
+
+.modalDataEmpty {
+    display: none;
+    border: 2px solid white;
+    border-radius: 10px;
+    position: absolute;
+    top: 1%;
+    right: 1%;
+    background-image: linear-gradient(180deg, red, gold);
+    text-align: center;
+    width: 220px;
+    height: 37px;
+    font-size: 12px;
+    color: white;
+    padding-bottom: 10px;
+}
+
+.modalAlertWarning {
+    display: none;
+    border: 2px solid white;
+    border-radius: 10px;
+    position: absolute;
+    top: 1%;
+    right: 1%;
+    background-image: linear-gradient(180deg, yellow, gold);
+    text-align: center;
+    width: 220px;
+    height: 37px;
+    font-size: 12px;
+    color: red;
+    padding-bottom: 10px;
+}
+
+textarea {
+    margin-top: 5px;
+    margin-bottom: 10px;
+    width: 330px;
+    height: 480px;
+    border-radius: 5px;
+    border: 5px ridge gold;
+    font-size: 20px;
+    color: black;
+    overflow-x: scroll;
+    box-shadow: 0px 0px 20px 5px black;
+}
+
+label {
+    color: gold;
+    font-size: 24px;
+    text-shadow: 3px 3px 5px black ;
+}
+
+.error{
+    color:red;
+    font-size: 25px;
+}
+
+button {
+    height: 40px;
+    width: 150px;
+    border: 3px solid white;
+    border-radius: 7px;
+    background-image: linear-gradient(0deg, black, gray);
+    color:gold;
+    font-size: 20px;
+    margin: 20px 25px;
+    box-shadow: 0px 0px 5px 3px gold;
+}
+
+button:hover {
+    background-image: linear-gradient(0deg, white, gold);
+    color: black;
+    border-radius: 7px;
+    border: 3px solid yellow;
+    box-shadow: 0px 0px 5px 3px gray;
+}
+
+.data {
+    width: 30%;
+    height: 550px;
+    margin: 0 5%;
+    background-color: white;
+    border: 3px solid gold;
+    border-radius: 7px;
+    color: black;
+    overflow: scroll;
+}
+
+.dataMain {
+    display: flex;
+    justify-content: center;
+}
+
+img {
+    height: 38px;
+    vertical-align: middle;
+}
+
+.line {
+    background-image: linear-gradient(0deg, gray, black);
+    margin-top: 15px;
+    height: 5px;
+}
+.footer {
+    font-size: 15px;
+    font-weight: 500;
+    color: white;
+    text-align: center;
+    margin-top: 5px;
+    text-shadow: 0px 0px 10px black;
+}
+
+.info {
+    color: darkgrey;
+}

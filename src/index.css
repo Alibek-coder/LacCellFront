@@ -1,0 +1,15 @@
+:root {
+  font-family: system-ui, Helvetica, Arial, sans-serif;
+  line-height: 1.5;
+  font-weight: 500;
+  background-color: #FEBE10;
+  background-image: linear-gradient(150deg, black, rgb(251 191 36), black, rgb(82 82 82), black);
+  background-attachment:fixed;
+  height: 100%;
+}
+
+body {
+  font-size: 17px;
+  margin: 0;   
+}
+

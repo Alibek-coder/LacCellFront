@@ -1,0 +1,35 @@
+.db-spinner {
+    position: absolute;
+    left: 48%;
+    top: 25%;
+    width: 65px;
+    height: 65px;
+    border-radius: 60%;
+    background-color: transparent;
+    border-top: 3px solid black;
+    border-bottom: 3px solid gold;
+    -webkit-animation: 1s spin linear infinite;
+    animation: 1s spin linear infinite;
+}
+
+@-webkit-keyframes spin {
+    from {
+        -webkit-transform: rotate(0deg);
+        transform: rotate(0deg);
+    }
+    to {
+        -webkit-transform: rotate(360deg);
+        transform: rotate(360deg);
+    }
+}
+          
+@keyframes spin {
+    from {
+        -webkit-transform: rotate(0deg);
+        transform: rotate(0deg);
+    }
+    to {
+        -webkit-transform: rotate(360deg);
+        transform: rotate(360deg);
+    }
+}    
